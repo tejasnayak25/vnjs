@@ -1,0 +1,67 @@
+header {
+    position: absolute;
+    background-color: black;
+    opacity: 70%;
+    height: 100vh;
+    width: 25vw;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.title {
+    padding: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.title-big {
+    padding: 25px;
+    padding-right: 40px;
+    font-weight: 500;
+    font-size: 70px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    text-shadow: 4px 0px 3px black;
+}
+
+.maxh {
+    max-height: 320px;
+}
+
+
+.saveDialog {
+    background-color: black;
+    opacity: 70%;
+    position: absolute;
+    top: 10%;
+    width: 76%;
+    left: 12%;
+    display: none;
+    z-index: 999;
+    color: white;
+    list-style-type: none;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.saveDialog li {
+    cursor: pointer;
+}
+
+.saveDialog li img {
+    width: 100%;
+    max-height: 140px;
+}
+
+.loadGameBtn {
+    cursor: pointer;
+}
