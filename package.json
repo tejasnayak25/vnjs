@@ -1,14 +1,10 @@
 {
-  "name": "vnjs-pages",
+  "name": "vnjs-packages",
   "version": "1.0.0",
-  "description": "VNJS-Pages",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "VNJS-Packages",
   "repository": {
     "url": "https://github.com/tj-likes-coding/vnjs"
   },
   "author": "Tejas Nayak",
-  "license": "ISC"
+  "license": "MIT"
 }
